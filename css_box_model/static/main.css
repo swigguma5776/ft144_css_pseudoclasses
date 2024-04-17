@@ -1,0 +1,27 @@
+
+.box {
+    border: 5px solid rgb(9, 111, 9); 
+    padding: 5%; /* when you have 4 values its top, right, bottom, left */
+    margin: 50px auto; /* only 2 values its top/bottom, left/right */
+    width: 80%; /* vw = view width that is WHOLE screen */
+}
+
+p {
+    border: 3px dashed palevioletred;
+    padding: 1rem; 
+    font-size: 1vw; 
+}
+
+/* rem = root element, is based on the root element's font size, default to 16px */
+/* em = parent element, also based on font size */
+
+/* body {
+    font-size: 36px; 
+} */
+
+/* :root {
+    font-size: 36px; 
+} */
+
+/* % is based off parent container */
+/* vw & vh is based off the screen size */
